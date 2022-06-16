@@ -40,7 +40,7 @@ const Checkout = (props) => {
     });
 
     const formIsValid = 
-    enteredNameIsValid && 
+      enteredNameIsValid && 
       enteredStreetIsValid && 
       enteredCityIsValid && 
       enteredPostalCodeIsValid;
